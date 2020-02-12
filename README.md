@@ -17,6 +17,7 @@ Tercera condición: ¿Qué se va a ejecutar después de cada iteración?
 Esto en código se vería por el momento así:
 
 for(int i = 0; i <=100; i++)
+
 {
 
 }
@@ -45,22 +46,41 @@ Estableceremos ciertas condiciones para indicar qué queremos hacer cuando en ca
 Nuestro código debería ahora verse así.
 
 for (int i = 0; i <= 100; i++)
+
 {
+
 	if (i % 3 == 0 && i % 5 == 0)
+
 	{
+
 		Console.WriteLine("FizzBuzz");
+
 	}
+
 	else if (i %3 == 0)
+
 	{
+
 		Console.WriteLine("Fizz");
+
 	}
+
 	else if (i %  5 == 0)
+
 	{
+
 		Console.WriteLine("Buzz");
+
 	}
+
 	else
+
 	{
+
 		Console.WriteLine(i);
+
 	}
+
+
 }
 
