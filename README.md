@@ -34,9 +34,10 @@ Estableceremos ciertas condiciones para indicar qué queremos hacer cuando en ca
 
 	1. Si el residuo de la división del número en que va nuestro contador entre 3 y 5 es igual a 0  5 nos
 	imprimirá "FizzBuzz".
-	Establecemos primero esta revisión de este resultado de la división de nuestro número actual entre 3 y 5
-        primero debido
-	a la manera en que se va ejecutando nuestro programa.
+	Establecemos primero la revisión de esta operación de nuestro número actual entre 3 y 5
+	primero debido a la manera en que se va ejecutando nuestro programa, pues pueden perderse números
+	que sí cumplirían esta condición pero serían descartador de ir esta instrucción después de las
+	condiciones 2 y 3.
 	2. Si no, se revisa si el residuo de la división de nuestro número actual entre 3 es igual a 0,
 	imprimirá "Fizz".
 	3. Si no, se revisará si el residuo de la división de nuestro número actual entre 5 es igual a 0,
